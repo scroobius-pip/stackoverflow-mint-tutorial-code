@@ -8,6 +8,6 @@ component Main {
   }
 
   fun render : Html {
-    <NestedStyles/>
+    <Counter/>
   }
 }

@@ -80,22 +80,39 @@ component NestedStyles {
     align-items: center;
 
     p {
-      color: blue;
       font-size: 32px;
+      color: blue;
       max-width: 50vw;
       margin: auto;
+
+      &:first-letter {
+        font-size: 54px;
+      }
     }
   }
 
   fun render : Html {
     <div::body>
       <p>"
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      It's okay if you don't like me. Not everyone has good taste
         "</p>
     </div>
   }
 }
 
+component InlineStyles {
+  fun render : Html {
+    <p class="red-text">
+      "Red Text"
+    </p>
+  }
+}
+
+/*
+ component ColoredBox {
+
+}
+*/
 enum FontSize {
   Large
   Medium
