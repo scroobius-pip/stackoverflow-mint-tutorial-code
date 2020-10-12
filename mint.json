@@ -1,0 +1,13 @@
+{
+  "name": "introduction",
+  "application": {
+    "head": "assets/head.html",
+    "title": "introduction"
+  },
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ]
+}
